@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header-sec {
+  background: #212121;
+  padding: 30px;
+}
+.header-sec {
+  background: #212121;
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  padding: 25px 0;
+}
+select {
+  width: 135px;
+  padding: 7px;
+  background-color: #0087f4;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.header-sec button {
+  margin-left: 40px;
+  background-color: #0087f4;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  width: 115px;
+  padding: 7px;
+}
+.chat-body p {
+  text-align: left;
+}
+
+.light-theme{
+  --btncolor: #fff;
+  --textcolor: #000;
+  --headercolor: #fff;
+  --border-top: 1px solid #000;
+  --border-bottom: 1px solid #000;
+}
+.dark-theme{
+  --btncolor: #000;
+  --textcolor: #fff;
+  --headercolor: #383c47;
+  --border-top: 1px solid #fff;
+  --border-bottom: 1px solid #fff;
+}
+button, body {
+  background: var(--btncolor);
+  color: var(--textcolor);
+}
+
+.chat-header, .chat-body, .chat-footer {
+  background-color: var(--headercolor);
+  color: var(--textcolor);
+}
+.chat-body {
+  border-top: var(--border-top)
+}
+.chat-footer{
+  border-top: var(--border-bottom)
+}
+.togglebtn{
+  border-radius: 4px;
+  padding: 7px;
+  margin-right: 45px;
+  border: 1px solid;
+}

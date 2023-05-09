@@ -1,0 +1,35 @@
+.header-sec {
+    background: #fff;
+    padding: 30px;
+  }
+  .header-sec {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    padding: 25px 0;
+  }
+  select {
+    width: 115px;
+    padding: 7px;
+    background-color: #0087f4;
+    border: 0;
+    border-radius: 4px;
+    color: #000;
+  }
+  .header-sec button {
+    margin-left: 40px;
+    background-color: #0087f4;
+    border: 0;
+    border-radius: 4px;
+    color: #000;
+    width: 115px;
+    padding: 7px;
+  }
+  button {
+    
+    background: white;
+}
+.chat-icon {
+    background-color: #000;
+}
